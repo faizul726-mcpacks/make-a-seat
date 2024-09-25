@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "fzul:seat",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:physics": {
+				"has_gravity": true
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 0.1
+			},
+			"minecraft:rideable": {
+				"seat_count": 1,
+				"pull_in_entities": true,
+				"family_types": [
+					"animal",
+					"player",
+					"mob",
+					"monster"
+				],
+				"seats": [
+					{
+						"position": [
+							0,
+							-0.625,
+							0
+						]
+					}
+				]
+			}
+		},
+		"events": {}
+	}
+}

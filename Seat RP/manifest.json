@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"faizul726"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.36"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "Seat",
+		"description": "20240916",
+		"min_engine_version": [
+			1,
+			21,
+			0
+		],
+		"uuid": "0136278e-6bcd-4e7a-accf-8f603f388943",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "c922f4aa-a1a0-4c74-a49e-0897517f65bd",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "931017e2-3df6-42aa-bee2-d89b50ceb74e",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
